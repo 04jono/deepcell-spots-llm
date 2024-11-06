@@ -144,7 +144,7 @@ def y_annotations_to_point_list_max(y_pred, threshold=0.95, min_distance=2):
             [[y_ind + delta_y[y_ind, x_ind],
               x_ind + delta_x[y_ind, x_ind]] for y_ind, x_ind in dot_pixel_inds]))
 
-    return np.array(dot_centers)
+    return np.array(dot_centers, dtype="object")
 
 
 def max_cp_array_to_point_list_max(max_cp_array, threshold=0.95, min_distance=2):

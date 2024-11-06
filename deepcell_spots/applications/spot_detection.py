@@ -108,7 +108,7 @@ class SpotDetection(Application):
         'training_steps_per_epoch': 849
     }
 
-    def __init__(self, model=None):
+    def __init__(self, preprocessing_fn=None, model=None):
 
         if model is None:
             cache_subdir = "models"
@@ -127,12 +127,15 @@ class SpotDetection(Application):
                     'classification_loss': DotNetLosses.classification_loss
                 }
             )
+        
+        def identity(image, clip=False):
+            return image
 
         super(SpotDetection, self).__init__(
             model,
             model_image_shape=model.input_shape[1:],
             model_mpp=0.1,
-            preprocessing_fn=min_max_normalize,
+            preprocessing_fn=identity if preprocessing_fn is None else preprocessing_fn,
             postprocessing_fn=y_annotations_to_point_list_max,
             format_model_output_fn=output_to_dictionary,
             dataset_metadata=self.dataset_metadata,

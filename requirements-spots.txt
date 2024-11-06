@@ -1,0 +1,18 @@
+pandas<2
+numpy
+scipy<2
+scikit-image>=0.19.3
+scikit-learn
+tensorflow~=2.8.0  # manually matched to deepcell-tf
+jupyter>=1.0.0,<2
+networkx>=2.1
+opencv-python-headless<5
+deepcell>=0.12.7
+trackpy
+tqdm
+plotly
+statsmodels
+--extra-index-url https://download.pytorch.org/whl/cpu # install the cpu only version of torch and torchvision
+torch
+torchvision
+pyro-ppl
