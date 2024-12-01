@@ -1,7 +1,4 @@
-"""Image normalization methods"""
-
 import logging
-
 import numpy as np
 
 
@@ -94,4 +91,36 @@ def gaussian_filter(image, clip=False):
 
             image[batch, ..., channel] = gf(img, sigma=1)
 
+    return image
+
+def contrast_stretch(image, clip=False):
+    """Apply a simple contrast stretch to the image data.
+
+    Args:
+        image (numpy.array): 4D numpy array of image data.
+        clip (boolean): Defaults to false. Determines if pixel
+            values are clipped by percentile.
+
+    Returns:
+        numpy.array: normalized image data with contrast stretch applied.
+    """
+    if not np.issubdtype(image.dtype, np.floating):
+        logging.info('Converting image dtype to float')
+    image = image.astype('float32')
+
+    if not len(np.shape(image)) == 4:
+        raise ValueError('Image must be 4D, input image shape was'
+                        '{}.'.format(np.shape(image)))
+
+    for batch in range(image.shape[0]):
+        for channel in range(image.shape[-1]):
+            img = image[batch,..., channel]
+
+            if clip:
+                img = np.clip(img, a_min=np.percentile(img, 0.01), a_max=np.percentile(img, 99.9))
+
+            contrast_stretch_value = img / (img.max() + 1)
+            contrast_stretched_img = contrast_stretch_value * (img.max() + 1)
+
+            image[batch,..., channel] = contrast_stretched_img
     return image

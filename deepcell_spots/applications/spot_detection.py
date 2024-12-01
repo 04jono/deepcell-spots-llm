@@ -241,7 +241,9 @@ class SpotDetection(Application):
         # Postprocess predictions to create label image
         predicted_spots = self._postprocess(output_images, **postprocess_kwargs)
 
-        return predicted_spots
+
+        # Return predicted spot coordinates, classification output, and regression output
+        return predicted_spots, output_images['classification'], output_images['offset_regression']
 
     def predict(self,
                 image,
