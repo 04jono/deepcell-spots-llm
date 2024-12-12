@@ -125,3 +125,5 @@ Thumbs.db
 
 # Dataset
 spot_data/
+slurm_output/
+submit_job.sh

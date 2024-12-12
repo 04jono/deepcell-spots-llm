@@ -1,16 +1,16 @@
 from transformers import pipeline, AutoTokenizer, AutoModelForCausalLM
 
-tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.1-70B-Instruct")
-pipe = pipeline("text-generation", "meta-llama/Llama-3.1-70B-Instruct", tokenizer=tokenizer)
+tokenizer = AutoTokenizer.from_pretrained("/share/j_sun/lz586/checkpoints/Llama-3.1-70B-Instruct")
+pipe = pipeline("text-generation", "/share/j_sun/lz586/checkpoints/Llama-3.1-70B-Instruct", tokenizer=tokenizer, device='cuda')
 
 def generate_text(prompt):
     messages = [
         {"role": "system", "content": '''
-                    You will write a function that transforms an image such that it will
+                    You will write a function in Python that transforms an image such that it will
                     be easier to detect spots in it. You will be prompted with example functions.
                     Do not write the same type of math function as the example functions.
-                    Only return the function itself. The function must have
-                    two arguments: image (numpy.array) and clip (boolean).
+                    Only return the Python function itself. The function must have
+                    two arguments: image (numpy.array) and clip (boolean) and returns image (numpy.array).
          '''},
          {
              "role": "system", "content": '''
@@ -101,6 +101,9 @@ function_bank = read_file_to_string('function_bank.py')
 
 model_output = str(generate_text(function_bank))
 
+print("MODEL OUTPUT")
+print(model_output)
+
 generated_function = model_output.split('```python')[1].split('```')[0]
 
 print(generated_function)
@@ -124,3 +127,7 @@ with open('function_bank.json', 'w') as file:
     json_array.append(json_data)
 
     json.dump(json_array, file)
+
+with open('function_bank.py', 'a') as file:
+    file.write(generated_function)
+
