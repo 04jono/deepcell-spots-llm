@@ -19,16 +19,19 @@ from deepcell_spots.image_generators import ImageFullyConvDotIterator
 
 from dotenv import load_dotenv
 
+import inspect
+
 load_dotenv()
 
-def write_results(generated_function: str, class_loss: int, regress_loss: int):
+def write_results(preprocessing_fn, class_loss: int, regress_loss: int):
     '''
     Write the results of evaluation to the function bank JSON.
     
     Requires:
-    generated_function, the complete function converted to a string
+    preprocessing_fn, the function
     class_loss, the classification loss
     regress_loss, the regression_loss
+    
     '''
     
     with open('function_bank.json', 'r') as file:
@@ -36,7 +39,7 @@ def write_results(generated_function: str, class_loss: int, regress_loss: int):
 
     with open('function_bank.json', 'w') as file:
         json_data = {
-            "code": generated_function,
+            "code": inspect.getsource(preprocessing_fn),
             "class_loss": class_loss,
             "regress_loss": regress_loss
         }
