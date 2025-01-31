@@ -7,7 +7,7 @@ def prepare_modification_message(context: str):
     
     Your tasks are:
     
-    1. Read in ./function_bank.json, which has evaluation results of previous iterations of this task. Based on the loss, create a small modification of one of the best performing functions, i.e. adjust a hyperparameter. This new takes an image as input and returns a transformed/preprocessed image for the downstream pretrained spot detection model. ./example_bank.py has examples of functions that will run successfully, consider the syntax of these examples when debugging.
+    1. Read in ./function_bank.json, which has evaluation results of previous iterations of this task. Based on the loss, create a small modification of one of the best performing functions, i.e. adjust a hyperparameter. This new takes an image as  input and returns a transformed/preprocessed image for the downstream pretrained spot detection model. ./example_bank.py has examples of functions that will run successfully, consider the syntax of these examples when debugging.
 
     2. Figure out how to evaluate the preprocessing function using evaluate_spots in ./evaluation_utils.py.
 
