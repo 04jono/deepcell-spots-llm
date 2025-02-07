@@ -53,7 +53,7 @@ def evaluate_spots(preprocessing_fn):
     
     Returns: classification loss average, regression loss average'''
     
-    spots_data = np.load('spot_data/SpotNet-v1_1/test.npz', allow_pickle=True)
+    spots_data = np.load('spot_data/SpotNet-v1_1/val.npz', allow_pickle=True)
     spots_images = spots_data['X']
     spots_truth = spots_data['y']
 
@@ -106,3 +106,13 @@ def evaluate_spots(preprocessing_fn):
         sum_regression_loss += losses.regression_loss(spot_annotations['offset'], regress_output[i]).numpy()
     
     return sum_classification_loss / class_output.shape[0], sum_regression_loss / regress_output.shape[0]
+
+def hyperparameter_search(preprocessing_fn):
+    '''Perform a hyperparameter search over the preprocessing function.
+    
+    Requires: preprocessing_fn, a function of type (image, bool, ...) -> image, where ... can contain any number of hyperparameters with default values.
+    
+    Returns: the best hyperparameters'''
+
+    
+    pass

@@ -13,7 +13,7 @@ def find_lowest():
                 minimum = obj['class_loss'] + obj['regress_loss']
                 min_obj = obj
         
-        print(min_obj)
+        print(min_obj['code'])
 
 
 def find_all_losses():
@@ -26,20 +26,22 @@ def find_all_losses():
         
         return losses
 
-find_all_losses()
 
-data = find_all_losses()
+find_lowest()
+# find_all_losses()
 
-# Create the plot
-plt.plot(data, marker='o', linestyle='-', color='b', label='Sum of Class and Regress Loss')
+# data = find_all_losses()
 
-# Add labels and title
-plt.xlabel('Iteration')
-plt.ylabel('Loss')
-plt.title('Losses at Exploration and Modification Phase')
+# # Create the plot
+# plt.plot(data, marker='o', linestyle='-', color='b', label='Sum of Class and Regress Loss')
 
-# Add a legend
-plt.legend()
+# # Add labels and title
+# plt.xlabel('Iteration')
+# plt.ylabel('Loss')
+# plt.title('Losses at Exploration and Modification Phase')
 
-# Display the plot
-plt.show()
+# # Add a legend
+# plt.legend()
+
+# # Display the plot
+# plt.show()
