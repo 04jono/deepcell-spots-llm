@@ -1,0 +1,698 @@
+Function1,Params1,Function2,Params2,Class Loss,Regress Loss
+bilateralFilter,"(5, 75, 75)",blur,3,0.4048677984821169,0.5774726762583381
+bilateralFilter,"(5, 75, 75)",blur,5,0.9454858136412344,0.7666783201067071
+bilateralFilter,"(5, 75, 75)",blur,7,1.869274743847353,1.0545434754145773
+bilateralFilter,"(9, 100, 100)",blur,3,1.763319022487849,1.035912447226675
+bilateralFilter,"(9, 100, 100)",blur,5,2.0217099484154266,1.0578226713757766
+bilateralFilter,"(9, 100, 100)",blur,7,2.4801879441757735,1.140402824314017
+bilateralFilter,"(5, 75, 75)",boxFilter,3,0.4048677984821169,0.5774726762583381
+bilateralFilter,"(5, 75, 75)",boxFilter,5,0.9454858136412344,0.7666783201067071
+bilateralFilter,"(5, 75, 75)",boxFilter,7,1.869274743847353,1.0545434754145773
+bilateralFilter,"(9, 100, 100)",boxFilter,3,1.763319022487849,1.035912447226675
+bilateralFilter,"(9, 100, 100)",boxFilter,5,2.0217099484154266,1.0578226713757766
+bilateralFilter,"(9, 100, 100)",boxFilter,7,2.4801879441757735,1.140402824314017
+bilateralFilter,"(5, 75, 75)",dilate,3,0.47560852244496343,0.7651002971749556
+bilateralFilter,"(5, 75, 75)",dilate,5,1.1186992628892,1.387128566440783
+bilateralFilter,"(5, 75, 75)",dilate,7,2.2660432165586633,2.137891916224831
+bilateralFilter,"(9, 100, 100)",dilate,3,2.0422485176964025,1.2721221679135373
+bilateralFilter,"(9, 100, 100)",dilate,5,2.7520874541056783,1.6990861177444458
+bilateralFilter,"(9, 100, 100)",dilate,7,3.414011980357923,1.8058105155041344
+bilateralFilter,"(5, 75, 75)",erode,3,0.521609703491834,0.6690260366389625
+bilateralFilter,"(5, 75, 75)",erode,5,1.804608829226345,1.1102350106364802
+bilateralFilter,"(5, 75, 75)",erode,7,3.070173627765555,1.4241848161346033
+bilateralFilter,"(9, 100, 100)",erode,3,1.5711307239914802,0.9851453395266282
+bilateralFilter,"(9, 100, 100)",erode,5,1.9584307576652225,1.1107466565935236
+bilateralFilter,"(9, 100, 100)",erode,7,2.858363461844917,1.3368375492723366
+bilateralFilter,"(5, 75, 75)",filter2D,3,0.40486780052857574,0.5774726983747984
+bilateralFilter,"(5, 75, 75)",filter2D,5,0.9454857924487442,0.7666782865398809
+bilateralFilter,"(5, 75, 75)",filter2D,7,1.8692746118348287,1.0545434001244998
+bilateralFilter,"(9, 100, 100)",filter2D,3,1.7633190796710552,1.0359124622846905
+bilateralFilter,"(9, 100, 100)",filter2D,5,2.0217099619931296,1.0578227134127365
+bilateralFilter,"(9, 100, 100)",filter2D,7,2.4801880918737305,1.1404028512929616
+bilateralFilter,"(5, 75, 75)",GaussianBlur,3,0.3534717113723194,0.5572151629548324
+bilateralFilter,"(5, 75, 75)",GaussianBlur,5,0.4942441060134259,0.6076769700175837
+bilateralFilter,"(5, 75, 75)",GaussianBlur,7,0.7922869870573969,0.7051087530035721
+bilateralFilter,"(9, 100, 100)",GaussianBlur,3,1.7341195466094896,1.0368515438155124
+bilateralFilter,"(9, 100, 100)",GaussianBlur,5,1.8249495500061466,1.041065910615419
+bilateralFilter,"(9, 100, 100)",GaussianBlur,7,1.993492500351644,1.0603897860175684
+bilateralFilter,"(5, 75, 75)",Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+bilateralFilter,"(5, 75, 75)",Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+bilateralFilter,"(5, 75, 75)",Laplacian,5,4.041643496406706,2.2639716926373934
+bilateralFilter,"(9, 100, 100)",Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+bilateralFilter,"(9, 100, 100)",Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+bilateralFilter,"(9, 100, 100)",Laplacian,5,3.5652539720660763,1.844172972127011
+bilateralFilter,"(5, 75, 75)",medianBlur,3,0.3462573852524848,0.5552985252518403
+bilateralFilter,"(5, 75, 75)",medianBlur,5,0.7266542786303417,0.694082102022673
+bilateralFilter,"(5, 75, 75)",medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+bilateralFilter,"(9, 100, 100)",medianBlur,3,1.6975165623338206,1.0369107760881122
+bilateralFilter,"(9, 100, 100)",medianBlur,5,1.8608953663981274,1.0413134305100693
+bilateralFilter,"(9, 100, 100)",medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+bilateralFilter,"(5, 75, 75)",pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+bilateralFilter,"(9, 100, 100)",pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+bilateralFilter,"(5, 75, 75)",pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+bilateralFilter,"(5, 75, 75)",pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+bilateralFilter,"(9, 100, 100)",pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+bilateralFilter,"(9, 100, 100)",pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+bilateralFilter,"(5, 75, 75)",pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+bilateralFilter,"(9, 100, 100)",pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+bilateralFilter,"(5, 75, 75)",Scharr,(),1.5802131050119275,1.5606789915185226
+bilateralFilter,"(9, 100, 100)",Scharr,(),2.3569337831516015,1.8452848647770128
+bilateralFilter,"(5, 75, 75)",sepFilter2D,(),7.525724852712531,1.538381909069262
+bilateralFilter,"(9, 100, 100)",sepFilter2D,(),7.510507382844624,1.4539364262631065
+bilateralFilter,"(5, 75, 75)",Sobel,1,2.7389874012846698,1.4852816186453166
+bilateralFilter,"(5, 75, 75)",Sobel,3,2.1401194741851404,1.5509658700541447
+bilateralFilter,"(5, 75, 75)",Sobel,5,2.3258183382059396,1.6161690486104865
+bilateralFilter,"(9, 100, 100)",Sobel,1,4.074541197325054,1.5573344054975007
+bilateralFilter,"(9, 100, 100)",Sobel,3,3.6935974409705716,1.764105218335202
+bilateralFilter,"(9, 100, 100)",Sobel,5,1.0385749332998928,1.7987085405148957
+bilateralFilter,"(5, 75, 75)",spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+bilateralFilter,"(9, 100, 100)",spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+bilateralFilter,"(5, 75, 75)",sqrBoxFilter,3,0.8180603174811327,0.632906334180581
+bilateralFilter,"(5, 75, 75)",sqrBoxFilter,5,1.3809993267941632,0.8162887830483286
+bilateralFilter,"(5, 75, 75)",sqrBoxFilter,7,2.3137732281447634,1.0729191149535933
+bilateralFilter,"(9, 100, 100)",sqrBoxFilter,3,2.229961529491763,1.0679954839380164
+bilateralFilter,"(9, 100, 100)",sqrBoxFilter,5,2.511185268400923,1.1000114051919234
+bilateralFilter,"(9, 100, 100)",sqrBoxFilter,7,2.987581923113842,1.188631914791308
+bilateralFilter,"(5, 75, 75)",stackBlur,3,0.4048677984821169,0.5774726762583381
+bilateralFilter,"(5, 75, 75)",stackBlur,5,0.9454858136412344,0.7666783201067071
+bilateralFilter,"(5, 75, 75)",stackBlur,7,1.869274743847353,1.0545434754145773
+bilateralFilter,"(9, 100, 100)",stackBlur,3,1.763319022487849,1.035912447226675
+bilateralFilter,"(9, 100, 100)",stackBlur,5,2.0217099484154266,1.0578226713757766
+bilateralFilter,"(9, 100, 100)",stackBlur,7,2.4801879441757735,1.140402824314017
+blur,3,boxFilter,3,0.2900377762920566,0.5299704082702336
+blur,3,boxFilter,5,0.8115562638488452,0.7299562745972683
+blur,3,boxFilter,7,1.7881168545959027,1.0492785180869855
+blur,5,boxFilter,3,0.8115562671440114,0.7299562680093865
+blur,5,boxFilter,5,1.271590812609678,0.8536623446564925
+blur,5,boxFilter,7,2.0347739107514684,1.0597205369096054
+blur,7,boxFilter,3,1.7881168401358942,1.049278508675726
+blur,7,boxFilter,5,2.0347739387695727,1.0597205331451014
+blur,7,boxFilter,7,2.4694455900376564,1.131500200221413
+blur,3,dilate,3,0.33679079364397024,0.7014745109959653
+blur,3,dilate,5,0.8934700390323996,1.324422168104272
+blur,3,dilate,7,1.9609927726615417,2.13918105552071
+blur,5,dilate,3,0.9819508730433881,0.9613367294010363
+blur,5,dilate,5,1.7376081895573359,1.55628756221972
+blur,5,dilate,7,2.8735301698509015,2.0564840467352616
+blur,7,dilate,3,2.0421125334442447,1.2905179042565196
+blur,7,dilate,5,2.7447582153897536,1.699175116890355
+blur,7,dilate,7,3.407284709026939,1.7925257569865176
+blur,3,erode,3,0.44132413012894656,0.6365942145648755
+blur,3,erode,5,1.7978949896501084,1.1113820929276317
+blur,3,erode,7,3.058298377457418,1.4227886519934
+blur,5,erode,3,0.7621589212604848,0.7462336126126741
+blur,5,erode,5,1.6381539482255711,1.0411323167775806
+blur,5,erode,7,2.929254296323971,1.370770371587653
+blur,7,erode,3,1.5904779867612218,0.9908489945687746
+blur,7,erode,5,1.902934645776833,1.0773876629377666
+blur,7,erode,7,2.70500996010378,1.2820606630099447
+blur,3,filter2D,3,0.29003778835145855,0.5299704164266587
+blur,3,filter2D,5,0.8115562501976169,0.7299562680093865
+blur,3,filter2D,7,1.7881169720062693,1.0492785704763312
+blur,5,filter2D,3,0.8115562160045987,0.7299562485594498
+blur,5,filter2D,5,1.271590857920972,0.8536623035606585
+blur,5,filter2D,7,2.0347739280936747,1.059720568280471
+blur,7,filter2D,3,1.7881168246955463,1.0492785425562607
+blur,7,filter2D,5,2.0347739390195594,1.0597205105580783
+blur,7,filter2D,7,2.469445615879407,1.13150017292876
+blur,3,GaussianBlur,3,0.24844002074709065,0.5109039750538374
+blur,3,GaussianBlur,5,0.3637864515246627,0.5581262692024833
+blur,3,GaussianBlur,7,0.643188178639761,0.6565513457122601
+blur,5,GaussianBlur,3,0.7612525352019522,0.7178305773358596
+blur,5,GaussianBlur,5,0.9091123151690944,0.7562963203379982
+blur,5,GaussianBlur,7,1.1876303149754868,0.8301168956254658
+blur,7,GaussianBlur,3,1.7581484811919692,1.0520895568948043
+blur,7,GaussianBlur,5,1.85091501920435,1.0537110529447857
+blur,7,GaussianBlur,7,2.0175473173443033,1.0692441090157156
+blur,3,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+blur,3,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+blur,3,Laplacian,5,4.356386831873341,2.2448518401698063
+blur,5,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+blur,5,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+blur,5,Laplacian,5,4.231109177438836,2.088603243074919
+blur,7,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+blur,7,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+blur,7,Laplacian,5,4.016415750980377,1.7674823008085552
+blur,3,medianBlur,3,0.2445863857693774,0.5064468735142758
+blur,3,medianBlur,5,0.6345551538440448,0.6698631402693297
+blur,3,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+blur,5,medianBlur,3,0.7293412532743164,0.708390119828676
+blur,5,medianBlur,5,1.0487336838017463,0.7890230699589378
+blur,5,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+blur,7,medianBlur,3,1.719035390828197,1.0503368992554514
+blur,7,medianBlur,5,1.8793500948795363,1.0467443133655348
+blur,7,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+blur,3,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+blur,5,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+blur,7,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+blur,3,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+blur,3,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+blur,5,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+blur,5,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+blur,7,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+blur,7,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+blur,3,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+blur,5,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+blur,7,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+blur,3,Scharr,(),1.6060604028795895,1.5252074731023688
+blur,5,Scharr,(),1.9793167239741276,1.6717546927301508
+blur,7,Scharr,(),2.3740311639873606,1.7915557196265772
+blur,3,sepFilter2D,(),7.517869352039538,1.6738459505532917
+blur,5,sepFilter2D,(),7.523605888768246,1.3964699475388778
+blur,7,sepFilter2D,(),7.513173655459755,1.4586902223135296
+blur,3,Sobel,1,2.4076931793438763,1.451417710906581
+blur,3,Sobel,3,1.8786995333276297,1.5038299177822314
+blur,3,Sobel,5,2.8044281845030032,1.6127520849830226
+blur,5,Sobel,1,3.4430160095817164,1.5465416080073306
+blur,5,Sobel,3,2.9883446216583254,1.6556824069274099
+blur,5,Sobel,5,1.6368128925561904,1.6743712349941855
+blur,7,Sobel,1,4.061028459197597,1.558444713291369
+blur,7,Sobel,3,3.7412119940707558,1.7384536379262021
+blur,7,Sobel,5,1.1472876580922227,1.7585711203123393
+blur,3,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+blur,5,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+blur,7,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+blur,3,sqrBoxFilter,3,0.6649258435091102,0.5835246271208713
+blur,3,sqrBoxFilter,5,1.2308606239819997,0.7742832692045915
+blur,3,sqrBoxFilter,7,2.2096518651974435,1.0621165300670423
+blur,5,sqrBoxFilter,3,1.2560558427345792,0.7874943043056287
+blur,5,sqrBoxFilter,5,1.731345480562825,0.907208650363119
+blur,5,sqrBoxFilter,7,2.5155067462866243,1.093851638781397
+blur,7,sqrBoxFilter,3,2.269099022055927,1.0842348500301964
+blur,7,sqrBoxFilter,5,2.5303614554730687,1.1039856575037303
+blur,7,sqrBoxFilter,7,2.9791231251468786,1.18265126065204
+blur,3,stackBlur,3,0.2900377762920566,0.5299704082702336
+blur,3,stackBlur,5,0.8115562638488452,0.7299562745972683
+blur,3,stackBlur,7,1.7881168545959027,1.0492785180869855
+blur,5,stackBlur,3,0.8115562671440114,0.7299562680093865
+blur,5,stackBlur,5,1.271590812609678,0.8536623446564925
+blur,5,stackBlur,7,2.0347739107514684,1.0597205369096054
+blur,7,stackBlur,3,1.7881168401358942,1.049278508675726
+blur,7,stackBlur,5,2.0347739387695727,1.0597205331451014
+blur,7,stackBlur,7,2.4694455900376564,1.131500200221413
+boxFilter,3,dilate,3,0.33679079364397024,0.7014745109959653
+boxFilter,3,dilate,5,0.8934700390323996,1.324422168104272
+boxFilter,3,dilate,7,1.9609927726615417,2.13918105552071
+boxFilter,5,dilate,3,0.9819508730433881,0.9613367294010363
+boxFilter,5,dilate,5,1.7376081895573359,1.55628756221972
+boxFilter,5,dilate,7,2.8735301698509015,2.0564840467352616
+boxFilter,7,dilate,3,2.0421125334442447,1.2905179042565196
+boxFilter,7,dilate,5,2.7447582153897536,1.699175116890355
+boxFilter,7,dilate,7,3.407284709026939,1.7925257569865176
+boxFilter,3,erode,3,0.44132413012894656,0.6365942145648755
+boxFilter,3,erode,5,1.7978949896501084,1.1113820929276317
+boxFilter,3,erode,7,3.058298377457418,1.4227886519934
+boxFilter,5,erode,3,0.7621589212604848,0.7462336126126741
+boxFilter,5,erode,5,1.6381539482255711,1.0411323167775806
+boxFilter,5,erode,7,2.929254296323971,1.370770371587653
+boxFilter,7,erode,3,1.5904779867612218,0.9908489945687746
+boxFilter,7,erode,5,1.902934645776833,1.0773876629377666
+boxFilter,7,erode,7,2.70500996010378,1.2820606630099447
+boxFilter,3,filter2D,3,0.29003778835145855,0.5299704164266587
+boxFilter,3,filter2D,5,0.8115562501976169,0.7299562680093865
+boxFilter,3,filter2D,7,1.7881169720062693,1.0492785704763312
+boxFilter,5,filter2D,3,0.8115562160045987,0.7299562485594498
+boxFilter,5,filter2D,5,1.271590857920972,0.8536623035606585
+boxFilter,5,filter2D,7,2.0347739280936747,1.059720568280471
+boxFilter,7,filter2D,3,1.7881168246955463,1.0492785425562607
+boxFilter,7,filter2D,5,2.0347739390195594,1.0597205105580783
+boxFilter,7,filter2D,7,2.469445615879407,1.13150017292876
+boxFilter,3,GaussianBlur,3,0.24844002074709065,0.5109039750538374
+boxFilter,3,GaussianBlur,5,0.3637864515246627,0.5581262692024833
+boxFilter,3,GaussianBlur,7,0.643188178639761,0.6565513457122601
+boxFilter,5,GaussianBlur,3,0.7612525352019522,0.7178305773358596
+boxFilter,5,GaussianBlur,5,0.9091123151690944,0.7562963203379982
+boxFilter,5,GaussianBlur,7,1.1876303149754868,0.8301168956254658
+boxFilter,7,GaussianBlur,3,1.7581484811919692,1.0520895568948043
+boxFilter,7,GaussianBlur,5,1.85091501920435,1.0537110529447857
+boxFilter,7,GaussianBlur,7,2.0175473173443033,1.0692441090157156
+boxFilter,3,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+boxFilter,3,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+boxFilter,3,Laplacian,5,4.356386831873341,2.2448518401698063
+boxFilter,5,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+boxFilter,5,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+boxFilter,5,Laplacian,5,4.231109177438836,2.088603243074919
+boxFilter,7,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+boxFilter,7,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+boxFilter,7,Laplacian,5,4.016415750980377,1.7674823008085552
+boxFilter,3,medianBlur,3,0.2445863857693774,0.5064468735142758
+boxFilter,3,medianBlur,5,0.6345551538440448,0.6698631402693297
+boxFilter,3,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+boxFilter,5,medianBlur,3,0.7293412532743164,0.708390119828676
+boxFilter,5,medianBlur,5,1.0487336838017463,0.7890230699589378
+boxFilter,5,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+boxFilter,7,medianBlur,3,1.719035390828197,1.0503368992554514
+boxFilter,7,medianBlur,5,1.8793500948795363,1.0467443133655348
+boxFilter,7,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+boxFilter,3,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+boxFilter,5,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+boxFilter,7,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+boxFilter,3,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+boxFilter,3,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+boxFilter,5,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+boxFilter,5,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+boxFilter,7,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+boxFilter,7,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+boxFilter,3,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+boxFilter,5,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+boxFilter,7,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+boxFilter,3,Scharr,(),1.6060604028795895,1.5252074731023688
+boxFilter,5,Scharr,(),1.9793167239741276,1.6717546927301508
+boxFilter,7,Scharr,(),2.3740311639873606,1.7915557196265772
+boxFilter,3,sepFilter2D,(),7.517869352039538,1.6738459505532917
+boxFilter,5,sepFilter2D,(),7.523605888768246,1.3964699475388778
+boxFilter,7,sepFilter2D,(),7.513173655459755,1.4586902223135296
+boxFilter,3,Sobel,1,2.4076931793438763,1.451417710906581
+boxFilter,3,Sobel,3,1.8786995333276297,1.5038299177822314
+boxFilter,3,Sobel,5,2.8044281845030032,1.6127520849830226
+boxFilter,5,Sobel,1,3.4430160095817164,1.5465416080073306
+boxFilter,5,Sobel,3,2.9883446216583254,1.6556824069274099
+boxFilter,5,Sobel,5,1.6368128925561904,1.6743712349941855
+boxFilter,7,Sobel,1,4.061028459197597,1.558444713291369
+boxFilter,7,Sobel,3,3.7412119940707558,1.7384536379262021
+boxFilter,7,Sobel,5,1.1472876580922227,1.7585711203123393
+boxFilter,3,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+boxFilter,5,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+boxFilter,7,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+boxFilter,3,sqrBoxFilter,3,0.6649258435091102,0.5835246271208713
+boxFilter,3,sqrBoxFilter,5,1.2308606239819997,0.7742832692045915
+boxFilter,3,sqrBoxFilter,7,2.2096518651974435,1.0621165300670423
+boxFilter,5,sqrBoxFilter,3,1.2560558427345792,0.7874943043056287
+boxFilter,5,sqrBoxFilter,5,1.731345480562825,0.907208650363119
+boxFilter,5,sqrBoxFilter,7,2.5155067462866243,1.093851638781397
+boxFilter,7,sqrBoxFilter,3,2.269099022055927,1.0842348500301964
+boxFilter,7,sqrBoxFilter,5,2.5303614554730687,1.1039856575037303
+boxFilter,7,sqrBoxFilter,7,2.9791231251468786,1.18265126065204
+boxFilter,3,stackBlur,3,0.2900377762920566,0.5299704082702336
+boxFilter,3,stackBlur,5,0.8115562638488452,0.7299562745972683
+boxFilter,3,stackBlur,7,1.7881168545959027,1.0492785180869855
+boxFilter,5,stackBlur,3,0.8115562671440114,0.7299562680093865
+boxFilter,5,stackBlur,5,1.271590812609678,0.8536623446564925
+boxFilter,5,stackBlur,7,2.0347739107514684,1.0597205369096054
+boxFilter,7,stackBlur,3,1.7881168401358942,1.049278508675726
+boxFilter,7,stackBlur,5,2.0347739387695727,1.0597205331451014
+boxFilter,7,stackBlur,7,2.4694455900376564,1.131500200221413
+dilate,3,erode,3,0.10140483499455609,0.43372600031526465
+dilate,3,erode,5,0.6395446774310825,0.744327163696289
+dilate,3,erode,7,2.163152084244709,1.2428501872639908
+dilate,5,erode,3,0.23325255764158148,0.6333930398288526
+dilate,5,erode,5,0.11914058177560372,0.45342943982074135
+dilate,5,erode,7,0.8107434975179403,0.8321505603037382
+dilate,7,erode,3,0.6809774763490024,1.2880111487288224
+dilate,7,erode,5,0.271315463764691,0.6439544360888632
+dilate,7,erode,7,0.15391272443199627,0.4752445515833403
+dilate,3,filter2D,3,0.2504588412831684,0.5717785805463791
+dilate,3,filter2D,5,0.40737876909000703,0.603532541582459
+dilate,3,filter2D,7,1.0603557356976365,0.8720599598006198
+dilate,5,filter2D,3,0.6525559346240603,1.0235643123325548
+dilate,5,filter2D,5,0.7100358619256631,0.8189975206789217
+dilate,5,filter2D,7,0.9328872531358349,0.7958806226128026
+dilate,7,filter2D,3,1.4089824054292157,1.7322299725130985
+dilate,7,filter2D,5,1.3561289998408603,1.3039774602965304
+dilate,7,filter2D,7,1.3179547181205922,1.0080664390011838
+dilate,3,GaussianBlur,3,0.2418733115724631,0.5840323176823164
+dilate,3,GaussianBlur,5,0.2775994485415714,0.574367831098406
+dilate,3,GaussianBlur,7,0.3792469327668904,0.5998683879249974
+dilate,5,GaussianBlur,3,0.6512243012848653,1.0760194339250264
+dilate,5,GaussianBlur,5,0.6782418740079983,0.9866089260891864
+dilate,5,GaussianBlur,7,0.7478328489943554,0.901359098208578
+dilate,7,GaussianBlur,3,1.43636202734748,1.8353528173346267
+dilate,7,GaussianBlur,5,1.4109679157992727,1.6182555098282663
+dilate,7,GaussianBlur,7,1.4180694106476088,1.4023215425641913
+dilate,3,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+dilate,3,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+dilate,3,Laplacian,5,6.279877990170529,2.0799528950139097
+dilate,5,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+dilate,5,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+dilate,5,Laplacian,5,3.1844742260481183,1.3379195803090145
+dilate,7,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+dilate,7,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+dilate,7,Laplacian,5,2.55220900083843,0.8980576257956655
+dilate,3,medianBlur,3,0.22690999923568023,0.603435030109004
+dilate,3,medianBlur,5,0.269986046255125,0.5727117372186561
+dilate,3,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+dilate,5,medianBlur,3,0.6523740013571162,1.1544295938391433
+dilate,5,medianBlur,5,0.6301985608805951,0.9747901436529661
+dilate,5,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+dilate,7,medianBlur,3,1.5582881720834656,2.034860904593217
+dilate,7,medianBlur,5,1.515436123644835,1.7340543150901795
+dilate,7,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+dilate,3,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+dilate,5,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+dilate,7,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+dilate,3,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+dilate,3,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+dilate,5,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+dilate,5,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+dilate,7,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+dilate,7,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+dilate,3,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+dilate,5,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+dilate,7,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+dilate,3,Scharr,(),2.3157097251791705,1.7231327332948383
+dilate,5,Scharr,(),1.2878006406520541,1.7216355160663002
+dilate,7,Scharr,(),1.953554432956796,1.6513995020013106
+dilate,3,sepFilter2D,(),7.534675141384727,2.6315747110467207
+dilate,5,sepFilter2D,(),7.590086952008699,2.72428104626505
+dilate,7,sepFilter2D,(),7.658374274404426,2.2135074552736786
+dilate,3,Sobel,1,3.0636378351010776,1.6468296603152626
+dilate,3,Sobel,3,2.4716583151566356,1.6941318762929816
+dilate,3,Sobel,5,3.5440692512612593,1.8292778128071836
+dilate,5,Sobel,1,3.4188400651279247,1.7900617386165418
+dilate,5,Sobel,3,1.7736932589035286,1.74332932798486
+dilate,5,Sobel,5,2.3789915963223107,1.8058255233262714
+dilate,7,Sobel,1,3.3651492482737493,1.6590965898413408
+dilate,7,Sobel,3,2.140663582086563,1.691174108103702
+dilate,7,Sobel,5,2.5211326523831015,1.5922195836117392
+dilate,3,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+dilate,5,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+dilate,7,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+dilate,3,sqrBoxFilter,3,0.4183675153720144,0.5495732611731479
+dilate,3,sqrBoxFilter,5,0.6399666150296597,0.5955996273379577
+dilate,3,sqrBoxFilter,7,1.2797067081727282,0.8592223095266442
+dilate,5,sqrBoxFilter,3,0.7708571071344379,0.9256748613558318
+dilate,5,sqrBoxFilter,5,0.8352161541409594,0.7423208519032127
+dilate,5,sqrBoxFilter,7,1.062314399568315,0.7467370466182106
+dilate,7,sqrBoxFilter,3,1.389529630953544,1.5825671936336316
+dilate,7,sqrBoxFilter,5,1.3466221089866992,1.142003033663097
+dilate,7,sqrBoxFilter,7,1.3074409578387673,0.8857194928746475
+dilate,3,stackBlur,3,0.25045882929361574,0.5717785796052531
+dilate,3,stackBlur,5,0.4073787602007781,0.6035325439352738
+dilate,3,stackBlur,7,1.0603558646956164,0.8720600758728229
+dilate,5,stackBlur,3,0.6525559435941671,1.023564317665602
+dilate,5,stackBlur,5,0.7100359054968546,0.8189975581671062
+dilate,5,stackBlur,7,0.9328872074176998,0.7958807277052026
+dilate,7,stackBlur,3,1.408982403223452,1.7322299737679332
+dilate,7,stackBlur,5,1.3561290386525031,1.3039774693940815
+dilate,7,stackBlur,7,1.31795448367729,1.008066436648369
+erode,3,filter2D,3,0.939690135731852,0.8090224943662945
+erode,3,filter2D,5,1.8705201120949104,1.0418412349726025
+erode,3,filter2D,7,2.838570629570045,1.2688276739496933
+erode,5,filter2D,3,2.418572692612284,1.2368597846282157
+erode,5,filter2D,5,3.087867988881312,1.3363056945173364
+erode,5,filter2D,7,3.658490965397734,1.4186007794580962
+erode,7,filter2D,3,3.3620950043201447,1.446156150416324
+erode,7,filter2D,5,3.711486287179746,1.4586208268215781
+erode,7,filter2D,7,3.9786336691755997,1.4616343724100214
+erode,3,GaussianBlur,3,0.7992830080470364,0.7682659773450149
+erode,3,GaussianBlur,5,1.1033334674803834,0.8446803770567242
+erode,3,GaussianBlur,7,1.6008448374702742,0.9569102281018307
+erode,5,GaussianBlur,3,2.2893540346896963,1.2179185572423432
+erode,5,GaussianBlur,5,2.568366170164786,1.2546772454914294
+erode,5,GaussianBlur,7,2.9369228323039254,1.3058225597205915
+erode,7,GaussianBlur,3,3.2834381328601587,1.4417882178959094
+erode,7,GaussianBlur,5,3.451391683754168,1.4485273254545112
+erode,7,GaussianBlur,7,3.6479499402799105,1.4544664771933304
+erode,3,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+erode,3,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+erode,3,Laplacian,5,3.306793810819325,2.099781494391592
+erode,5,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+erode,5,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+erode,5,Laplacian,5,2.4925006653133193,1.9403259440472251
+erode,7,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+erode,7,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+erode,7,Laplacian,5,2.118547575097335,1.7708466303975958
+erode,3,medianBlur,3,0.9678876640458934,0.84869285978769
+erode,3,medianBlur,5,1.8463518397098309,1.0824354178027102
+erode,3,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+erode,5,medianBlur,3,2.369301149327504,1.2603088504389712
+erode,5,medianBlur,5,2.975674185627385,1.3762370630314475
+erode,5,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+erode,7,medianBlur,3,3.289723314815446,1.456872850970218
+erode,7,medianBlur,5,3.5768688420716086,1.4750384443684628
+erode,7,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+erode,3,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+erode,5,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+erode,7,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+erode,3,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+erode,3,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+erode,5,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+erode,5,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+erode,7,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+erode,7,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+erode,3,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+erode,5,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+erode,7,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+erode,3,Scharr,(),1.2356827557086945,1.4486905455589294
+erode,5,Scharr,(),1.4130453690102225,1.5976362730327405
+erode,7,Scharr,(),1.5748106492193121,1.652277892514279
+erode,3,sepFilter2D,(),7.51311872381913,1.3342642150427166
+erode,5,sepFilter2D,(),7.446067448666221,1.3814377082021614
+erode,7,sepFilter2D,(),7.356614875793457,1.4564192483299656
+erode,3,Sobel,1,2.4595018385272276,1.4040334500764546
+erode,3,Sobel,3,1.4483092141778846,1.4469720344794423
+erode,3,Sobel,5,2.553495883784796,1.5660004822831406
+erode,5,Sobel,1,3.4424230820254276,1.4778531237652428
+erode,5,Sobel,3,2.2005003825614327,1.601577521625318
+erode,5,Sobel,5,2.1493355405958074,1.6363580390026695
+erode,7,Sobel,1,3.8727195218989725,1.461417797992104
+erode,7,Sobel,3,2.669929316169337,1.6162954506121183
+erode,7,Sobel,5,2.0558777445241025,1.649837252968236
+erode,3,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+erode,5,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+erode,7,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+erode,3,sqrBoxFilter,3,1.6294485270731935,0.9286725367370404
+erode,3,sqrBoxFilter,5,2.5171864992938935,1.1329502570001702
+erode,3,sqrBoxFilter,7,3.4457809371775703,1.3286633133888244
+erode,5,sqrBoxFilter,3,3.1635741956532,1.3340063879364414
+erode,5,sqrBoxFilter,5,3.6880837540877494,1.3977006134233976
+erode,5,sqrBoxFilter,7,4.095426905782599,1.4493317466033133
+erode,7,sqrBoxFilter,3,3.8700423309677525,1.461765744184193
+erode,7,sqrBoxFilter,5,4.1177064092535725,1.4674674059215345
+erode,7,sqrBoxFilter,7,4.276072623855189,1.4661434612776103
+erode,3,stackBlur,3,0.9396901546818155,0.8090224921703338
+erode,3,stackBlur,5,1.8705200914881732,1.0418412415604843
+erode,3,stackBlur,7,2.8385704532265663,1.2688275142719871
+erode,5,stackBlur,3,2.418572710807386,1.236859762354901
+erode,5,stackBlur,5,3.0878678215177437,1.3363056879294546
+erode,5,stackBlur,7,3.658490725410612,1.418600702913184
+erode,7,stackBlur,3,3.362095052160715,1.4461561748855993
+erode,7,stackBlur,5,3.711486241378282,1.4586208381150898
+erode,7,stackBlur,7,3.978633587925058,1.4616343680181
+filter2D,3,GaussianBlur,3,0.248440025724152,0.5109039599958219
+filter2D,3,GaussianBlur,5,0.36378645876937205,0.5581262655948338
+filter2D,3,GaussianBlur,7,0.6431881757134473,0.656551354182394
+filter2D,5,GaussianBlur,3,0.7612525257551552,0.7178305964720877
+filter2D,5,GaussianBlur,5,0.9091123402633361,0.7562963382193917
+filter2D,5,GaussianBlur,7,1.1876303065421159,0.8301168943706312
+filter2D,7,GaussianBlur,3,1.7581486392815253,1.0520895154852616
+filter2D,7,GaussianBlur,5,1.850915147261204,1.053711033494849
+filter2D,7,GaussianBlur,7,2.017547424872847,1.06924410336896
+filter2D,3,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+filter2D,3,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+filter2D,3,Laplacian,5,4.356387026686417,2.244851837660137
+filter2D,5,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+filter2D,5,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+filter2D,5,Laplacian,5,4.2311094371896045,2.0886033045618158
+filter2D,7,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+filter2D,7,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+filter2D,7,Laplacian,5,4.01641711020156,1.767482282613453
+filter2D,3,medianBlur,3,0.2445863987196629,0.5064468769650711
+filter2D,3,medianBlur,5,0.6345551054348777,0.6698631512491326
+filter2D,3,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+filter2D,5,medianBlur,3,0.7293412995892332,0.7083901549640454
+filter2D,5,medianBlur,5,1.0487336958047786,0.789023040470324
+filter2D,5,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+filter2D,7,medianBlur,3,1.7190355595152238,1.0503368176912007
+filter2D,7,medianBlur,5,1.879350189742093,1.0467442487415515
+filter2D,7,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+filter2D,3,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+filter2D,5,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+filter2D,7,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+filter2D,3,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+filter2D,3,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+filter2D,5,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+filter2D,5,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+filter2D,7,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+filter2D,7,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+filter2D,3,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+filter2D,5,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+filter2D,7,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+filter2D,3,Scharr,(),1.606060371489117,1.5252074731023688
+filter2D,5,Scharr,(),1.9793166518211365,1.671754661359285
+filter2D,7,Scharr,(),2.3740313613101054,1.791555774839301
+filter2D,3,sepFilter2D,(),7.51786931188483,1.673845825069829
+filter2D,5,sepFilter2D,(),7.523605883748908,1.3964699506759644
+filter2D,7,sepFilter2D,(),7.5131736052663705,1.458690157062129
+filter2D,3,Sobel,1,2.4076931724422854,1.451417720945258
+filter2D,3,Sobel,3,1.8786994807814297,1.503829919037066
+filter2D,3,Sobel,5,2.8044278985575626,1.6127520724346762
+filter2D,5,Sobel,1,3.443016053500928,1.54654162682985
+filter2D,5,Sobel,3,2.9883445601714285,1.6556823956338982
+filter2D,5,Sobel,5,1.6368128385198744,1.674371189820139
+filter2D,7,Sobel,1,4.061028342497976,1.5584447170558728
+filter2D,7,Sobel,3,3.741212268879539,1.7384536303971942
+filter2D,7,Sobel,5,1.1472880946962456,1.7585711328606857
+filter2D,3,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+filter2D,5,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+filter2D,7,spatialGradient,(),0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/spatialgradient.cpp:104: error: (-215:Assertion failed) src.type() == CV_8UC1 in function 'spatialGradient'
+"
+filter2D,3,sqrBoxFilter,3,0.6649258044762782,0.5835246137882534
+filter2D,3,sqrBoxFilter,5,1.2308606000984774,0.7742832466175682
+filter2D,3,sqrBoxFilter,7,2.209651866682658,1.0621165197146567
+filter2D,5,sqrBoxFilter,3,1.2560559336169574,0.7874943234418568
+filter2D,5,sqrBoxFilter,5,1.7313455530197213,0.907208671381599
+filter2D,5,sqrBoxFilter,7,2.5155068007346832,1.0938516463104047
+filter2D,7,sqrBoxFilter,3,2.2690989755878324,1.0842348418737713
+filter2D,7,sqrBoxFilter,5,2.5303615147345946,1.1039856402497543
+filter2D,7,sqrBoxFilter,7,2.9791232589436203,1.1826512775923077
+filter2D,3,stackBlur,3,0.2900377797845163,0.5299704087407966
+filter2D,3,stackBlur,5,0.811556229329864,0.7299562645585913
+filter2D,3,stackBlur,7,1.7881168258817572,1.0492785002055922
+filter2D,5,stackBlur,3,0.811556303480297,0.7299562805577329
+filter2D,5,stackBlur,5,1.2715908355226642,0.8536623490484138
+filter2D,5,stackBlur,7,2.0347739303729644,1.0597205256160938
+filter2D,7,stackBlur,3,1.7881170327039926,1.049278473854065
+filter2D,7,stackBlur,5,2.0347740148194133,1.0597205350273533
+filter2D,7,stackBlur,7,2.4694456484070733,1.1315002027310823
+GaussianBlur,3,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+GaussianBlur,3,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+GaussianBlur,3,Laplacian,5,4.369880076144871,2.24901284418608
+GaussianBlur,5,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+GaussianBlur,5,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+GaussianBlur,5,Laplacian,5,4.206941864051317,2.2421774036005924
+GaussianBlur,7,Laplacian,1,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+GaussianBlur,7,Laplacian,3,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/filter.simd.hpp:3250: error: (-213:The function/feature is not implemented) Unsupported combination of source format (=5), and destination format (=6) in function 'getLinearFilter'
+"
+GaussianBlur,7,Laplacian,5,3.990070454854714,2.2063164008291145
+GaussianBlur,3,medianBlur,3,0.2119574990405358,0.49095666455595116
+GaussianBlur,3,medianBlur,5,0.6138826492781702,0.6658362361945604
+GaussianBlur,3,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+GaussianBlur,5,medianBlur,3,0.31212706209258423,0.5361093034869746
+GaussianBlur,5,medianBlur,5,0.7183728963749385,0.6966035568400433
+GaussianBlur,5,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+GaussianBlur,7,medianBlur,3,0.568080158812288,0.6334788622040498
+GaussianBlur,7,medianBlur,5,0.974150446586703,0.768153926259593
+GaussianBlur,7,medianBlur,7,0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/median_blur.simd.hpp:880: error: (-215:Assertion failed) src.depth() == CV_8U && (cn == 1 || cn == 3 || cn == 4) in function 'medianBlur'
+"
+GaussianBlur,3,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+GaussianBlur,5,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+GaussianBlur,7,pyrDown,(),0,"could not broadcast input array from shape (64,64) into shape (128,128)"
+GaussianBlur,3,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+GaussianBlur,3,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+GaussianBlur,5,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+GaussianBlur,5,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+GaussianBlur,7,pyrMeanShiftFiltering,"(10, 20)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+GaussianBlur,7,pyrMeanShiftFiltering,"(20, 40)",0,"OpenCV(4.10.0) /io/opencv/modules/imgproc/src/segmentation.cpp:368: error: (-210:Unsupported format or combination of formats) Only 8-bit, 3-channel images are supported in function 'pyrMeanShiftFiltering'
+"
+GaussianBlur,3,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+GaussianBlur,5,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+GaussianBlur,7,pyrUp,(),0,"could not broadcast input array from shape (256,256) into shape (128,128)"
+GaussianBlur,3,Scharr,(),1.5690879295531073,1.5037225986781872
+GaussianBlur,5,Scharr,(),1.5761360534711888,1.53369039736296
+GaussianBlur,7,Scharr,(),1.696107036659592,1.5892196190984627
+GaussianBlur,3,sepFilter2D,(),7.513538029319362,1.7586192331816022
+GaussianBlur,5,sepFilter2D,(),7.522931891993473,1.5716993739730434

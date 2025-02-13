@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
+import cv2
 
 from tensorflow.keras.utils import get_file
 from tensorflow.keras.utils import to_categorical

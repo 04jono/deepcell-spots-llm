@@ -13,7 +13,7 @@ def find_lowest():
                 minimum = obj['class_loss'] + obj['regress_loss']
                 min_obj = obj
         
-        print(min_obj['code'])
+        print(min_obj['class_loss'] + min_obj['regress_loss'])
 
 
 def find_all_losses():
